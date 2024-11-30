@@ -1,0 +1,27 @@
+body {
+background: black;
+}
+@media (max-width:600px)
+{
+    body {
+        background: red;
+    }
+    h1 {
+        color:aliceblue;
+    }
+}
+@media (min-width:601px) and (max-width:800px)
+{
+    body {
+        background:blue;
+    }
+    h1 {
+        font-size: 100px;
+    }
+}
+@media (min-width:801px) and (max-width:1000px)
+{
+    body {
+        background:rgb(255, 0, 191);
+    }
+}
